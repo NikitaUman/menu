@@ -1,0 +1,77 @@
+.item   {
+    float: left;
+}
+
+.clearfix::after    {
+    content:'' ;
+    display: block;
+    clear: both;
+}
+
+.link   {
+    display: block;
+    background-color: black;
+    color: beige;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.link:hover {
+    background-color: rgb(7, 70, 70);
+}
+
+
+.sub-link   {
+    text-decoration: none;
+    display: block;
+    background-color: blueviolet;
+    color: burlywood;
+    padding: 5px 20px;
+}
+
+.sub-link:hover {
+    background-color: chartreuse;
+}
+
+.down-link:hover {
+    background-color: rgb(7, 70, 70);
+}
+
+.sub-list   {
+    position: absolute;
+    display: none;
+}
+
+.item   {
+    position: relative;
+}
+
+.item:hover .sub-list {
+    display: block;
+}
+
+.down-link  {
+    text-decoration: none;
+    display: block;
+    background-color: black;
+    color: burlywood;
+    padding: 5px 20px;
+    position: left;
+}
+
+.down-list {
+    position: absolute;
+    left: 98px;
+    top: 0px;
+    display: none;
+    
+}
+
+.sub-item   {
+    position: relative;
+
+}
+
+.sub-item:hover .down-list {
+    display: block;
+}
